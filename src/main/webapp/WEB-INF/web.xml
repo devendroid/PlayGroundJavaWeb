@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>MyWebPro</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Servlet Declaration -->
+  <servlet>
+    <servlet-name>serv</servlet-name>
+    <servlet-class>com.devs.servlet.MyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>genserv</servlet-name>
+    <servlet-class>com.devs.servlet.MyGenericServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>httpserv</servlet-name>
+    <servlet-class>com.devs.servlet.MyHttpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>regserv</servlet-name>
+    <servlet-class>com.devs.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Servlet1</servlet-name>
+    <servlet-class>com.devs.servlet.Servlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Servlet2</servlet-name>
+    <servlet-class>com.devs.servlet.Servlet2</servlet-class>
+  </servlet>
+  
+  <!-- Servlet Mapping -->
+  <servlet-mapping>
+   <servlet-name>serv</servlet-name> 
+   <url-pattern>/serv</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+   <servlet-name>genserv</servlet-name> 
+   <url-pattern>/genserv</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+   <servlet-name>regserv</servlet-name> 
+   <url-pattern>/RegisterServlet</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+   <servlet-name>Servlet1</servlet-name> 
+   <url-pattern>/Servlet1</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+   <servlet-name>Servlet2</servlet-name> 
+   <url-pattern>/Servlet2</url-pattern> 
+  </servlet-mapping>
+  
+</web-app>
