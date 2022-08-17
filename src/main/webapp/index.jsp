@@ -88,6 +88,12 @@ font-size: 20px;
 <input type="number" name="n1" placeholder="First Number" >
 <input type="number" name="n2" placeholder="Second Number" >
 <button type="submit">Forward</button>
+</form>
+
+<form action="ServletA">
+<h3> Session Tracking/Management Example</h3>
+<input type="text" name="name" placeholder="Enter your name" >
+<button type="submit">Go to Servlet A</button>
 
 </form>
 
