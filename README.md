@@ -19,3 +19,16 @@
 
 ### HttpServelet (Class)
 `HttpServlet` is a class that extends `GenericServlet` class and provide the body for remaining 1 method `service(-,-)` and provide methods like `doGet(-,-), doPost(-,-), doPut(-,-), doDelete(-,-)` etc to be override by its child class. 
+
+
+### How to run this demo?
+Just clone and import the project in eclipse, and you will need below things:
+
+- IDE (eclipse) : [Link](https://www.youtube.com/watch?v=yB2LHVok7_c&list=PL0zysOflRCemekjlbHbpTw-XGWufHEzcf&index=2)
+- Web Server (Apache tomcat) : [Link](https://www.youtube.com/watch?v=aNFpjKGKb64&list=PL0zysOflRCemekjlbHbpTw-XGWufHEzcf&index=3)
+- DB Server (Mysql) : [Link](https://www.youtube.com/watch?v=sm7Fe609ilE&list=PL0zysOflRCemekjlbHbpTw-XGWufHEzcf)
+- Download connector jar file same version as mysql : [Link](https://downloads.mysql.com/archives/c-j/)
+- JDBC Driver (Mysql connector jar) : Just place the connector jar under "WEB-INF/lib"
+
+#### Troubleshooting
+https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
